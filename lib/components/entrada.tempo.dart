@@ -4,7 +4,10 @@ class EntradaTempo extends StatelessWidget {
   final String titulo;
   final int valor;
 
-  const EntradaTempo({Key? key, required this.titulo, required this.valor}) : super(key: key);
+  final void Function()? inc;
+  final void Function()? dec;
+
+  const EntradaTempo({Key? key, required this.titulo, required this.valor, this.inc, this.dec}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -22,7 +25,7 @@ class EntradaTempo extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             ElevatedButton(
-              onPressed: () {},
+              onPressed: dec,
               style: ElevatedButton.styleFrom(
                 shape: CircleBorder(),
                 padding: EdgeInsets.all(15),
@@ -40,7 +43,7 @@ class EntradaTempo extends StatelessWidget {
               ),
             ),
             ElevatedButton(
-              onPressed: () {},
+              onPressed: inc,
               style: ElevatedButton.styleFrom(
                 shape: CircleBorder(),
                 padding: EdgeInsets.all(15),
