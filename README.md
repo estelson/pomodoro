@@ -3,8 +3,7 @@
 Projeto para demonstrar as funcionalidades de um app básico de contador de tempo "Pomodoro".
 
 ## Dependências
-***Release***:<br/>[![pub package](https://img.shields.io/pub/v/mobx.svg?label=mobx&color=green)](https://pub.dev/packages/mobx) [![pub package](https://img.shields.io/pub/v/flutter_mobx.svg?label=flutter_mobx&color=green)](https://pub.dev/packages/flutter_mobx) [![pub package](https://img.shields.io/pub/v/provider.svg?label=provider&color=green)](https://pub.dev/packages/provider)
-***Dev***:<br/>[![pub package](https://img.shields.io/pub/v/build_runner.svg?label=build_runner&color=orange)](https://pub.dev/packages/build_runner) [![pub package](https://img.shields.io/pub/v/mobx_codegen.svg?label=mobx_codegen&color=orange)](https://pub.dartlang.org/packages/mobx_codegen)
+***Release***:<br/>[![pub package](https://img.shields.io/pub/v/mobx.svg?label=mobx&color=green)](https://pub.dev/packages/mobx) [![pub package](https://img.shields.io/pub/v/flutter_mobx.svg?label=flutter_mobx&color=green)](https://pub.dev/packages/flutter_mobx) [![pub package](https://img.shields.io/pub/v/provider.svg?label=provider&color=green)](https://pub.dev/packages/provider)<br/>***Dev***:<br/>[![pub package](https://img.shields.io/pub/v/build_runner.svg?label=build_runner&color=orange)](https://pub.dev/packages/build_runner) [![pub package](https://img.shields.io/pub/v/mobx_codegen.svg?label=mobx_codegen&color=orange)](https://pub.dartlang.org/packages/mobx_codegen)
 
 ------------
 
