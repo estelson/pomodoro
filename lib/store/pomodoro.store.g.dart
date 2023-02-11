@@ -25,6 +25,22 @@ mixin _$PomodoroStore on _PomodoroStore, Store {
     });
   }
 
+  late final _$tipoIntervaloAtom =
+      Atom(name: '_PomodoroStore.tipoIntervalo', context: context);
+
+  @override
+  TipoIntervalo get tipoIntervalo {
+    _$tipoIntervaloAtom.reportRead();
+    return super.tipoIntervalo;
+  }
+
+  @override
+  set tipoIntervalo(TipoIntervalo value) {
+    _$tipoIntervaloAtom.reportWrite(value, super.tipoIntervalo, () {
+      super.tipoIntervalo = value;
+    });
+  }
+
   late final _$minutosAtom =
       Atom(name: '_PomodoroStore.minutos', context: context);
 
@@ -173,6 +189,7 @@ mixin _$PomodoroStore on _PomodoroStore, Store {
   String toString() {
     return '''
 iniciado: ${iniciado},
+tipoIntervalo: ${tipoIntervalo},
 minutos: ${minutos},
 segundos: ${segundos},
 tempoTrabalho: ${tempoTrabalho},

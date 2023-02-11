@@ -20,7 +20,7 @@ class Pomodoro extends StatelessWidget {
             child: Cronometro(),
           ),
           Padding(
-            padding: const EdgeInsets.symmetric(vertical: 40),
+            padding: EdgeInsets.symmetric(vertical: 40),
             child: Observer(
               builder: (_) => Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
