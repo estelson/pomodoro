@@ -10,7 +10,9 @@ Projeto para demonstrar as funcionalidades de um app básico de contador de temp
 
 ##### Desenvolvido por:
 Estelson Medeiros Pereira
+
 https://github.com/estelson
+
 estelson@gmail.com
 
 ------------
